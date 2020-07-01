@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
  * @author:JasonYu
  * @date:2020-06-17 16-57
  **/
-//@ResponseBody可加在类首
-//@Controller
-@RestController
+@ResponseBody
+@Controller
+//@RestController
 public class HelloController {
 
 
